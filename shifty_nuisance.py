@@ -18,13 +18,9 @@ while True:
             shifty_time = randint(0,1)
             time.sleep(shifty_time)
             keyboard.release('shift')
-
-            isTrue,frame = capture.read()
-            cv.imshow('Video',frame)
            
 
     if datetime.datetime.now().time().strftime("%H:%M:%S")  == "14:24:20":
-        capture.release()
-        cv.destroyAllWindows()
+
         Nuisance = False
 
