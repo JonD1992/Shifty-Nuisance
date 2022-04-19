@@ -13,7 +13,6 @@ while True:
         while Nuisance:
             nuisance_time = randint(0,1)
             time.sleep(nuisance_time)
-            print('nuisance time ongoing')
             keyboard.press('shift')
             shifty_time = randint(0,1)
             time.sleep(shifty_time)
